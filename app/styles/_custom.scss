@@ -1,1 +1,10 @@
 // Your custom SCSS should be written here...
+
+@import"_omnes_moda_normal";
+
+body {
+  font-family: "omnes_ods_mediumroman" !important;
+  .testing {
+    font-family: "omnes_ods_mediumroman";
+  }
+}
