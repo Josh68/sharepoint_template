@@ -15,8 +15,32 @@ body {
 
 .box {
   border: 1px solid $watermark_text_brown;
-  padding: 6px;
+  margin-bottom: 16px;
+  padding: 16px;
 }
+
+.box-list {
+  padding-left: 32px;
+}
+
+.box-list-small-padding {
+  padding-left: 16px;
+}
+
+.box-list-small-anchor {
+  padding-left: 8px;
+}
+
+.box-list-anchor {
+  padding-left: 16px;
+}
+
+.box-img{
+  margin: 0 0 0 30%;
+  width: 120px;
+  height: 85px;
+}
+
 .date {
   color: $white;
   padding-top: 16px;
