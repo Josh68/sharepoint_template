@@ -48,6 +48,14 @@ body {
 
 /*-- helper class ---------------------------------------------- */
 
+.anchor-color-bkg {
+  color: $white;
+   text-decoration: underline;
+  &:hover{
+    color: $white;
+    text-decoration: none;
+  }
+}
 .plum-bkg {
   background: $modern_plum;
 }
