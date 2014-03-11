@@ -1,14 +1,12 @@
 // Your custom SCSS should be written here...
 
 @import"_omnes_moda_normal";
+@import"_moda_brand_color";
+@import"_flexslider";
 
 body {
   font-family: "omnes_ods_mediumroman" !important;
   .testing {
     font-family: "omnes_ods_mediumroman";
   }
-}
-
-#inSlider {
-	border:$flex-border-color 1px solid;
 }

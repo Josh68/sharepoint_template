@@ -1,6 +1,7 @@
 // Can also be used with $(document).ready()
-$(document).ready(function() {
+jQuery(function($){
   $('.flexslider').flexslider({
-    animation: "slide"
+	animation: "slide",
+	directionNav: false
   });
 });
