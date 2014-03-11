@@ -1,7 +1,12 @@
 // Your custom SCSS should be written here...
 
 @import"_omnes_moda_normal";
+<<<<<<< HEAD
+@import"_moda_brand_color";
+@import"_flexslider";
+=======
 @import"_moda_brand_colors";
+>>>>>>> 4329321639628bb9939f4ce056c655cef0931123
 
 body {
   font-family: "omnes_ods_mediumroman" !important;
