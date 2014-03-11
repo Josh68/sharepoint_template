@@ -1,10 +1,73 @@
 // Your custom SCSS should be written here...
 
 @import"_omnes_moda_normal";
+@import"_moda_brand_colors";
 
 body {
   font-family: "omnes_ods_mediumroman" !important;
   .testing {
     font-family: "omnes_ods_mediumroman";
   }
+}
+
+
+/*-- specific ---------------------------------------------------*/
+
+.box {
+  border: 1px solid $watermark_text_brown;
+  padding: 6px;
+}
+.date {
+  color: $white;
+  padding-top: 16px;
+}
+
+/*-- helper class ---------------------------------------------- */
+
+.plum-bkg {
+  background: $modern_plum;
+}
+
+.aqua-bkg {
+  background: $modern_aqua;
+}
+
+.brown-bkg {
+  background: $warm_brown;
+}
+
+
+.center-text {
+  text-align: center;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.white-text {
+  color: $white;
+}
+
+
+.margin-right {
+  margin-right: 30px;
+}
+
+
+.padding-top {
+  padding-top: 50px;
+}
+
+
+.border-right-white {
+  border-right: solid 20px $white;
+}
+
+.right {
+  float: right !important;
+}
+
+.left {
+  float: left !important;
 }

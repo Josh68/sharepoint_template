@@ -9,7 +9,7 @@
   width: 100%;
   min-height: 60px;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background: $navbar-color; // Change this color in settings to change the navbar color
   @include respond(all-phones) {
     position: relative;
@@ -144,8 +144,9 @@
           padding: 0 $gutter-in-px;
         }
         input.search {
-          background: darken($navbar-color, 20%);
+          background: #fff;
           border: none;
+          border-radius: 4px;
           color: $default-color;
         }
       }
